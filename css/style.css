@@ -201,15 +201,10 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter,
 #fh5co-event,
 .fh5co-bg {
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:100%;
-    width:100%;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .fh5co-bg {
