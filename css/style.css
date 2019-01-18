@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
 }
-
+@media screen and (max-width: 768px) {
 .fh5co-bg1 {
   background-repeat: no-repeat;
     background-position: center;
@@ -217,6 +217,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background-size: cover;
     height:100%;
     width:100%;
+  }
 }
 
 .fh5co-bg {
@@ -245,7 +246,15 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
-    background-position: center;
+    background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height:100%;
+      width:100%;
   }
 }
 .fh5co-cover .display-t,
